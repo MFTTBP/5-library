@@ -5,5 +5,5 @@ library: dict[str, str] = {"Кладбище домашних животных":
 
 authors = set(library.values())
 
-print(library.keys())
-print(authors)
+print(list(library.keys()))
+print(list(authors))
